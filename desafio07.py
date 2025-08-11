@@ -1,3 +1,3 @@
 frutas = ['maça', 'banana', 'manga', 'uva']
 
-print(frutas[0], frutas[3])
+print(frutas[0], frutas[len(frutas)-1])
