@@ -1,4 +1,4 @@
-print('Contagem com o break')
+print('\nContagem com o break')
 n = 1 
 while n <=10:
     print(n)
@@ -6,7 +6,7 @@ while n <=10:
     if n == 6:
         break
 
-print('Contagem com o continue')
+print('\nContagem com o continue')
 j =1
 while j <= 10:
     print(j)
@@ -15,5 +15,16 @@ while j <= 10:
         j += 1
     else:
         continue
-        
-        
+
+# UTILIZANDO O FOR - break
+for numero in range(1,11):
+    if numero > 5:
+        break
+    print(numero)
+
+#UTILIZANDO O FOR - continue
+for numero in range(1,11):
+    if numero ==5:
+        continue # continue o loop
+    print(numero)
+
